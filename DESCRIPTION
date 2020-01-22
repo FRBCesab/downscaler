@@ -9,6 +9,6 @@ Authors@R:
       email = "nicolas.casajus@fondationbiodiversite.fr"
     )
 Description: What the package does.
-License: What license it uses
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
