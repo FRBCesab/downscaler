@@ -1,3 +1,28 @@
+#' @title ...
+#' @description ...
+#'
+#' @param from ...
+#' @param to ...
+#' @param FUN ...
+#'
+#' @return ...
+#'
+#' @details ...
+#'
+#' @author Nicolas CASAJUS, \email{nicolas.casajus@@fondationbiodiversite.fr}
+#'
+#' @export
+#'
+#' @import sf
+#' @import stars
+#' @import raster
+#' @importFrom exactextractr exact_extract
+#'
+#' @examples
+#' #...
+
+
+
 downscale <- function(from, to, FUN = "mean") {
 
 # RasterStack
