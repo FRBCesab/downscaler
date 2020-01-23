@@ -27,10 +27,10 @@ install.packages("devtools", dependencies = TRUE)
 Then install the `downscaler` package:
 
 ``` r
-### Install the < popbayes > package from GitHub
+### Install the < downscaler > package from GitHub
 devtools::install_github("frbcesab/downscaler", build_vignettes = TRUE)
 
-### Load the < popbayes > package
+### Load the < downscaler > package
 library(downscaler)
 ```
 
