@@ -19,3 +19,5 @@ Imports:
     stars,
     raster,
     exactextractr
+URL: https://github.com/FRBCesab/downscaler
+BugReports: https://github.com/FRBCesab/downscaler/issues
