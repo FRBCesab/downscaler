@@ -4,9 +4,9 @@
 \name{downscaler-package}
 \alias{downscaler}
 \alias{downscaler-package}
-\title{downscaler: What the Package Does}
+\title{downscaler: Downscale a Spatial Raster}
 \description{
-What the package does.
+This package is an alternative to raster::resample() and downscales a raster to coarser resolution in a more efficient way (for large rasters).
 }
 \author{
 \strong{Maintainer}: Nicolas Casajus \email{nicolas.casajus@fondationbiodiversite.fr}

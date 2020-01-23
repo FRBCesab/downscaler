@@ -18,9 +18,13 @@
 #' @importFrom exactextractr exact_extract
 #'
 #' @examples
+#' library(raster)
+#'
 #' from  <- raster(system.file("external/test.grd", package = "raster"))
 #' to    <- aggregate(from, fac = 2)
+#'
 #' final <- downscale(from, to, FUN = "mean")
+#'
 #' par(mfrow = c(1, 2))
 #' plot(from)
 #' plot(final)
