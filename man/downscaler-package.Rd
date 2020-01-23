@@ -8,6 +8,14 @@
 \description{
 This package is an alternative to raster::resample() and downscales a raster to coarser resolution in a more efficient way (for large rasters).
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/FRBCesab/downscaler}
+  \item Report bugs at \url{https://github.com/FRBCesab/downscaler/issues}
+}
+
+}
 \author{
 \strong{Maintainer}: Nicolas Casajus \email{nicolas.casajus@fondationbiodiversite.fr}
 

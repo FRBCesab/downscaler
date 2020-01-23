@@ -4,7 +4,7 @@
 \alias{downscale}
 \title{Downscale a Spatial Raster}
 \usage{
-downscale(from, to, FUN = "mean")
+downscale(from, to, FUN = "mean", progress = TRUE)
 }
 \arguments{
 \item{from}{A RasterLayer, RasterStack or RasterBrick to downscale}
@@ -12,6 +12,8 @@ downscale(from, to, FUN = "mean")
 \item{to}{A RasterLayer with characteristics that from should be downscale to}
 
 \item{FUN}{The function to aggregate values (DEFAULT: "mean")}
+
+\item{progress}{If TRUE, a progress bar is displayed}
 }
 \value{
 A RasterLayer, RasterStack or RasterBrick.
@@ -26,7 +28,7 @@ library(raster)
 from  <- raster(system.file("external/test.grd", package = "raster"))
 to    <- aggregate(from, fac = 2)
 
-final <- downscale(from, to, FUN = "mean")
+final <- downscale(from, to, FUN = "mean", progress = FALSE)
 
 par(mfrow = c(1, 2))
 plot(from)
