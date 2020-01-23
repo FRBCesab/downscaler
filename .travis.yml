@@ -10,6 +10,7 @@ notifications:
 
 r_packages:
   - covr
+  - pkgdown
   - devtools
 
 after_success:
