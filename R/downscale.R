@@ -1,5 +1,5 @@
 #' @title Downscale a Spatial Raster
-#' @description This function is an alternative to raster::resample() and downscales
+#' @description This function is an alternative to \code{raster::resample()} and downscales
 #' a raster to coarser raster in a more efficient way (for large rasters).
 #'
 #' @param from A RasterLayer, RasterStack or RasterBrick to downscale

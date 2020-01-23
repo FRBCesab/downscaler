@@ -19,7 +19,7 @@ downscale(from, to, FUN = "mean", progress = TRUE)
 A RasterLayer, RasterStack or RasterBrick.
 }
 \description{
-This function is an alternative to raster::resample() and downscales
+This function is an alternative to \code{raster::resample()} and downscales
 a raster to coarser raster in a more efficient way (for large rasters).
 }
 \examples{
