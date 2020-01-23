@@ -3,9 +3,14 @@
 
 # downscaler
 
-<!-- badges: start -->
-
-<!-- badges: end -->
+[![Build
+Status](https://travis-ci.org/FRBCesab/downscaler.svg?branch=master)](https://travis-ci.org/FRBCesab/downscaler)
+[![AppVeyor build
+status](https://ci.appveyor.com/api/projects/status/github/FRBCesab/downscaler?branch=master&svg=true)](https://ci.appveyor.com/project/FRBCesab/downscaler)
+[![Project Status:
+Active](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
+[![License:
+MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 This package is an alternative to
 [`raster::resample()`](https://www.rdocumentation.org/packages/raster/versions/3.0-7/topics/resample)
