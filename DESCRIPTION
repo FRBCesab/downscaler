@@ -1,5 +1,5 @@
 Package: downscaler
-Title: What the Package Does
+Title: Downscale a Spatial Raster
 Version: 0.0.0.9000
 Authors@R:
     person(
@@ -8,7 +8,7 @@ Authors@R:
       role = c("aut", "cre"),
       email = "nicolas.casajus@fondationbiodiversite.fr"
     )
-Description: What the package does.
+Description: This package is an alternative to raster::resample() and downscales a raster to coarser resolution in a more efficient way (for large rasters).
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
