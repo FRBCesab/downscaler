@@ -28,7 +28,7 @@ Then install the `downscaler` package:
 
 ``` r
 ### Install the < downscaler > package from GitHub
-devtools::install_github("frbcesab/downscaler", build_vignettes = TRUE)
+devtools::install_github("frbcesab/downscaler")
 
 ### Load the < downscaler > package
 library(downscaler)
