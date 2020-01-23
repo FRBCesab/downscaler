@@ -2,28 +2,31 @@
 % Please edit documentation in R/downscale.R
 \name{downscale}
 \alias{downscale}
-\title{...}
+\title{Downscale a Spatial Raster}
 \usage{
 downscale(from, to, FUN = "mean")
 }
 \arguments{
-\item{from}{...}
+\item{from}{A RasterLayer, RasterStack or RasterBrick to downscale}
 
-\item{to}{...}
+\item{to}{A RasterLayer with characteristics that from should be downscale to}
 
-\item{FUN}{...}
+\item{FUN}{The function to aggregate values (DEFAULT: "mean")}
 }
 \value{
-...
+A RasterLayer, RasterStack or RasterBrick.
 }
 \description{
-...
-}
-\details{
-...
+This function is an alternative to raster::resample() and downscales
+a raster to coarser raster in a more efficient way (for large rasters).
 }
 \examples{
-#...
+from  <- raster(system.file("external/test.grd", package = "raster"))
+to    <- aggregate(from, fac = 2)
+final <- downscale(from, to, FUN = "mean")
+par(mfrow = c(1, 2))
+plot(from)
+plot(final)
 }
 \author{
 Nicolas CASAJUS, \email{nicolas.casajus@fondationbiodiversite.fr}
